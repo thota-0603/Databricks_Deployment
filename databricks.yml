@@ -1,0 +1,14 @@
+bundle:
+  name: Databricks-Deployment
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://dbc-be508a58-5037.cloud.databricks.com
+
+  prod:
+    mode: production
+    workspace:
+      host: https://dbc-be508a58-5037.cloud.databricks.com
